@@ -1,0 +1,98 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  border: 0px;
+  color: white;
+}
+body {
+  background-color: #222222;
+}
+
+header > h1, nav{
+  display: inline-block;
+  margin: 20px;
+}
+
+#reload {
+  text-decoration: none;
+  color: rgb(207, 207, 207);
+}
+
+#reload:hover {
+  color: #716DBA;
+}
+
+nav {
+  float: right;
+}
+nav > a {
+  margin-right: 40px;
+  padding-top: 12px;
+  text-decoration: none;
+  font-weight: bolder;
+  font-size: 1.1em;
+  color: rgb(207, 207, 207);
+}
+
+nav > a:hover {
+  color: #716DBA;
+}
+
+h1, p{
+  color: rgb(207, 207, 207);
+}
+
+#titulo-principal {
+  margin: 0px 0px 25px 50px;
+}
+
+#principal {
+  display: inline-block;
+  width: 50%;
+  margin-left: 20px;
+}
+
+#principal > p {
+  text-align: justify;
+  margin: 0px 50px 0px 50px;
+}
+#desenvolvedor {
+  padding-bottom: 25px;
+}
+
+#img-html {
+  display: inline-block;
+  width: 45%;
+  margin-top: 10%;
+
+}
+
+#img-html img {
+  max-width: 600px
+
+}
+
+#botao {
+  display: block;
+  margin: auto;
+  margin-top: 50px;
+  padding: 15px 40px 15px 40px;
+  border-radius: 10px;
+  background-color: #716DBA;
+  cursor: pointer;
+}
+
+#botao:hover {
+  background-color: #7b78b6;
+}
+
+#botao > a {
+  text-decoration: none;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+}
